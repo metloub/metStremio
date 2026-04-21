@@ -40,20 +40,28 @@ It doesn’t stream anything or provide content.. it simply detects what you’r
 
 <p align="center">
   <!-- 🔁 Insert UI / Discord preview -->
-  <img src="https://cdn.discordapp.com/attachments/1494647235562963015/1495247033936777247/image.png?ex=69e58cd1&is=69e43b51&hm=897b4a0e0c1027c928ace2c92af158f4c9f8b6f74ad24f73679dd978e8dea063&" />
+  <img src="https://cdn.discordapp.com/attachments/1494647235562963015/1496285256959918110/Screenshot_2026-04-21_at_11.55.34_PM.jpeg?ex=69e953bc&is=69e8023c&hm=c672ab2a20b63a9801458cec15fdfe95e88c46064d0595734175ce48c69a2d55&" />
+  <img src="https://cdn.discordapp.com/attachments/1494647235562963015/1496285257194934292/Screenshot_2026-04-21_at_11.57.48_PM.jpeg?ex=69e953bc&is=69e8023c&hm=b62d5bb9e72eda91741f44e50dd505f707a4a37755387f7075d83d8ac0f16e27&" />
 </p>
 
 --- 
 
-### Operating System
-> [!NOTE]
-> On macOS, you might need to pause and resume playback in Stremio for detection to work properly.
+### 🖥️ Operating System
 
 | OS                            | Description                                         | Support |
 |-------------------------------|-----------------------------------------------------|---------|
 | Windows                       | Works out of the box. No additional setup required.           | ✅ Stable      |
 | macOS                         | Requires accessibility permissions for your terminal to function properly.      | ⚠️ Unstable     |
 | Linux                         | Not supported yet (planned).                           | ❌ N/A     |
+
+---
+
+## 🐞 Known Issues
+
+- Subtitles may interfere with Rich Presence titles (disabling them improves stability)
+- On macOS, you may need to pause and resume playback for detection to register correctly
+- This is an early version, so occasional bugs or inconsistencies are expected
+- Waiting for more bugs... xD
 
 ---
 
@@ -67,7 +75,7 @@ It doesn’t stream anything or provide content.. it simply detects what you’r
 ---
 
 ## 🛠️ Installation
-> [!NOTE]
+> [!WARNING]
 > macOS requires accessibility permissions for metStremio to work correctly.  
 > Enable them in **System Settings → Privacy & Security → Accessibility**
 
@@ -79,6 +87,15 @@ git clone https://github.com/metloub/metStremio.git && cd metStremio
 ```bash
 npm install
 ```
+- ### 3. Create a `.env`
+```bash
+cp .env.example .env
+```
+> [!IMPORTANT]
+> metStremio uses the OMDb API for movie and series metadata (titles, posters, descriptions).
+> To enable these features, add your API key to your `.env` file.
+> You can get a free key here: https://www.omdbapi.com/apikey.aspx
+> **Keep your key private and NEVER commit it to GitHub.**
 - ### 3. Start the addon
 ```bash
 npm start
