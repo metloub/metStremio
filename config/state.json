@@ -1,0 +1,40 @@
+{
+  "episodeMemory": {
+    "tt14452776": {
+      "season": 3,
+      "episode": 1,
+      "episodeTitle": "Tomorrow",
+      "watchedAt": 1776812032488
+    }
+  },
+  "watchHistory": [
+    {
+      "id": "tt1517268",
+      "type": "movie",
+      "title": "Barbie",
+      "completed": true,
+      "watchedAt": 1776812171869
+    },
+    {
+      "id": null,
+      "type": "movie",
+      "title": "Late Shift",
+      "completed": false,
+      "watchedAt": 1776812232166
+    },
+    {
+      "id": "tt14452776",
+      "type": "series",
+      "title": "The Bear",
+      "completed": true,
+      "watchedAt": 1776812032992
+    },
+    {
+      "id": "tt15398776",
+      "type": "movie",
+      "title": "Oppenheimer",
+      "completed": true,
+      "watchedAt": 1776812032992
+    }
+  ]
+}
