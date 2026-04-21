@@ -57,7 +57,8 @@ It doesn’t stream anything or provide content.. it simply detects what you’r
 ---
 
 ## 🐞 Known Issues
-
+> [!NOTE]
+> Currently, only movies are supported. Series support will be added in the next update, which is coming very soon..
 - Subtitles may interfere with Rich Presence titles (disabling them improves stability)
 - On macOS, you may need to pause and resume playback for detection to register correctly
 - This is an early version, so occasional bugs or inconsistencies are expected
