@@ -150,7 +150,7 @@ metStremio is a project I’m building and maintaining.
 If you like it:
 - ⭐ Star the repository
 - 🗣 Share it with others
-- ☕ Buy me a Ko-Fi → https://ko-fi.com/metloub
+- ☕ Buy me a Ko-Fi → https://ko-fi.com/met
 
 ---
 
