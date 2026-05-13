@@ -1,6 +1,6 @@
 <p align="center">
     <!-- 🔁 Replace with your own logo -->
-    <img src="https://cdn.discordapp.com/attachments/1494647235562963015/1494751998539599882/Gemini_Generated_Image_xsldiixsldiixsld.png?ex=69eda307&is=69ec5187&hm=97e2cfe14fdd0950eed655f50fc040d2357e96d712d75988f0a422c9de90d3f3&" width="256" height="256" />
+    <img src="assets/metstremio_logo.png" width="250">
 </p>
 
 <h1 align="center">metStremio</h1>
@@ -40,8 +40,8 @@ It doesn’t stream anything or provide content.. it simply detects what you’r
 
 <p align="center">
   <!-- 🔁 Insert UI / Discord preview -->
-  <img src="https://cdn.discordapp.com/attachments/1494647235562963015/1496285256959918110/Screenshot_2026-04-21_at_11.55.34_PM.jpeg?ex=69edf0fc&is=69ec9f7c&hm=e69d739acaa295de4eda72410f4b4ffea0a2453ef578469bfaff2f35ddb655da&" />
-  <img src="https://cdn.discordapp.com/attachments/1494647235562963015/1496285257194934292/Screenshot_2026-04-21_at_11.57.48_PM.jpeg?ex=69e953bc&is=69e8023c&hm=b62d5bb9e72eda91741f44e50dd505f707a4a37755387f7075d83d8ac0f16e27&" />
+  <img src="assets/metstremio_preview_1.jpeg">
+  <img src="assets/metstremio_preview_2.jpeg">
 </p>
 
 --- 
